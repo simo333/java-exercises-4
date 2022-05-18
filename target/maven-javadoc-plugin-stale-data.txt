@@ -1,0 +1,25 @@
+cmd.exe
+/X
+/C
+"C:\Users\SimoPc\.jdks\openjdk-18\bin\javadoc.exe @options @packages"
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\allclasses-index.html = 1652907976057
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\allpackages-index.html = 1652907976060
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\copy.svg = 1652907976090
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\element-list = 1652907975882
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\help-doc.html = 1652907976086
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\index-all.html = 1652907976081
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\index.html = 1652907976043
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\jquery-ui.overrides.css = 1652907976118
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\member-search-index.js = 1652907976065
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\module-search-index.js = 1652907976061
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\options = 1652907974709
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\overview-summary.html = 1652907976083
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\overview-tree.html = 1652907976040
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\package-search-index.js = 1652907976062
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\packages = 1652907974710
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\script.js = 1652907976089
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\search.js = 1652907976092
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\serialized-form.html = 1652907975946
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\stylesheet.css = 1652907976088
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\tag-search-index.js = 1652907976066
+C:\Users\SimoPc\IdeaProjects\java-exercises-4\target\site\apidocs\type-search-index.js = 1652907976063
