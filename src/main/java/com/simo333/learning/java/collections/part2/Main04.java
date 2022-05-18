@@ -33,7 +33,7 @@ public class Main04 {
         }
 
         for (Integer key : peopleByAge.keySet()) {
-            System.out.println(key + ": " + peopleByAge.get(key));
+            System.out.println(key + ": " + peopleByAge.get(key).size());
         }
     }
 
