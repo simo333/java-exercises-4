@@ -15,7 +15,7 @@ public class Servlet25 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<Integer> ints = randomNumbers();
-        List<Integer> sortedInts = sortIntegerList(ints);
+        List<Integer> sortedInts = sortedIntegerList(ints);
         PrintWriter writer = response.getWriter();
         for (Integer anInt : ints) {
             writer.println(anInt);
@@ -38,7 +38,7 @@ public class Servlet25 extends HttpServlet {
                 .boxed().toList();
     }
 
-    List<Integer> sortIntegerList(List<Integer> list) {
+    List<Integer> sortedIntegerList(List<Integer> list) {
         return list.stream().sorted().toList();
     }
 }
