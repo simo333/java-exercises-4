@@ -11,4 +11,10 @@
         <servlet-name>Servlet12</servlet-name>
         <url-pattern>/servlet12</url-pattern>
     </servlet-mapping>
+
+    <!--    Handling http status 500 (not logged in)-->
+    <error-page>
+        <error-code>500</error-code>
+        <location>/logout</location>
+    </error-page>
 </web-app>
