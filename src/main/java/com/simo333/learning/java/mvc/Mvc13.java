@@ -6,11 +6,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @WebServlet(name = "Mvc13", value = "/mvc13")
 public class Mvc13 extends HttpServlet {
+    List<Book> books = new ArrayList<>();
     Map<String, String> fieldsValidationErrors = new HashMap<>();
 
     @Override
@@ -45,8 +48,9 @@ public class Mvc13 extends HttpServlet {
         }
         if (validForm) {
             Book newBook = new Book(title, author, isbn);
+            books.add(newBook);
             request.setAttribute("book", newBook);
-
+            request.setAttribute("books", books);
             getServletContext().getRequestDispatcher("/WEB-INF/jsp/result.jsp")
                     .forward(request, response);
         } else {
