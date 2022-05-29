@@ -1,5 +1,12 @@
 # Learning java:
 
 * collections
+* cookie
+* form
+* get
+* maven
 * regex
-* sets and maps
+* servlets
+* session
+* setmap
+* web
