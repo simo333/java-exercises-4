@@ -10,3 +10,4 @@
 * session
 * setmap
 * web
+* jsp
