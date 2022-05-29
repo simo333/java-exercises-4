@@ -9,7 +9,10 @@ import java.io.IOException;
 public class Cookie2 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        //ZADANIE 4 JSP
+        Cookie cookieFoo = new Cookie("foo", "bar");
+        cookieFoo.setMaxAge(60*60);
+        response.addCookie(cookieFoo);
     }
 
     @Override
