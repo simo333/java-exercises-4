@@ -20,6 +20,7 @@ public class Logout extends HttpServlet {
             request.setAttribute("logoutMessage", "Zostałeś wylogowany");
         }
         request.getRequestDispatcher("/login").forward(request, response);
+
     }
 
     @Override
