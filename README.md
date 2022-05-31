@@ -1,14 +1,14 @@
 # Learning java:
 
 * collections
-* cookie
-* form
-* get
+* cookies
+* forms
+* Http **GET** method
 * maven
 * regex
 * servlets
-* session
-* setmap
+* sessions
+* sets and maps
 * web
 * jsp
 * mvc
